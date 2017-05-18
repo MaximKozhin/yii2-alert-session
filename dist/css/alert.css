@@ -1,0 +1,10 @@
+.flash-messages {
+    position:absolute;
+    width:500px;
+    top:50px;
+    right:0;
+    z-index:100
+}
+.flash-messages > .alert {
+    margin: 10px;
+}
