@@ -1,6 +1,5 @@
 {
     "name": "maximkozhin/yii2-alert-session",
-	"minimum-stability": "dev",
     "description": "alert extension for Yii2",
     "type": "yii2-extension",
     "keywords": ["yii2", "extension", "widget", "alert", "session"],
