@@ -13,6 +13,24 @@ Copy files into 'your-repo' directory and add to your config file new alias
 ],
 ...
 ```
+
+Via composer
+------------
+
+add to your 'require' section in file 'composer.json'
+```
+ "require": {
+       ...
+        "maximkozhin/yii2-alert-session": "*"
+    },
+```
+or run command
+
+```
+$ composer require maximkozhin/yii2-alert-session
+```
+
+
 **1. Configuration | Конфигурация**
 -----------------------------------
 
