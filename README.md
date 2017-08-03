@@ -1,19 +1,6 @@
 Alert Extension for Yii2 
 ========================
 
-Manual Installation
--------------------
-
-Copy files into 'your-repo' directory and add to your config file new alias
-
-```
-...
-'aliases' => [
-    '@maximkozhin' => '@app/your-repo/maximkozhin',
-],
-...
-```
-
 Via composer
 ------------
 
@@ -66,7 +53,3 @@ add to your layout file
     <?=\maximkozhin\alert\widgets\Alert::widget()?>
 ...
 ```
-
-
-
-
