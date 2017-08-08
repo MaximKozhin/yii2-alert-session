@@ -50,6 +50,9 @@ Your flash messages don't group by type, outputing by the FIFO principe
 add to your layout file 
 ```
 ...
+<!-- CSS styles in css-file /your/vendor/path/maximkozhin/alert/assets/dist/alert.css -->
+<div class="flash-messages">
     <?=\maximkozhin\alert\widgets\Alert::widget()?>
+</div>
 ...
 ```
