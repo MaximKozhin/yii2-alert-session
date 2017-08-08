@@ -21,7 +21,7 @@ class Session extends \yii\web\Session
      */
     public function addFlash($key, $value = true, $removeAfterAccess = true)
     {
-        parent::addFlash('flash', ['type' => $key, 'value'=>$value], $removeAfterAccess);
+        parent::addFlash($this->flashIndex, ['type' => $key, 'value'=>$value], $removeAfterAccess);
     }
 
     /**
@@ -31,6 +31,6 @@ class Session extends \yii\web\Session
      */
     public function setFlash($key, $value = true, $removeAfterAccess = true)
     {
-        parent::addFlash('flash', ['type' => $key, 'value' => $value], $removeAfterAccess);
+        parent::addFlash($this->flashIndex, ['type' => $key, 'value' => $value], $removeAfterAccess);
     }
 }
